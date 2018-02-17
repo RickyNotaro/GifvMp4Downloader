@@ -2,8 +2,8 @@
   "name": "Imgur Gifv as MP4 Downloader",
   "description": "__MSG_appDesc__",
   "default_locale": "en",
-  "version": "0.10",
-  "manifest_version" : 2,
+  "version": "0.12",
+  "manifest_version" : 3,
   "background" : {
     "scripts" : ["background.js"]
   },
@@ -18,7 +18,9 @@
     "http://imgur.com/*",
     "https://imgur.com/*",
     "http://*.imgur.com/*",
-    "https://*.imgur.com/*"
+    "https://*.imgur.com/*",
+    "downloads",
+    "storage"
   ],
   "author": "Ricky Notaro-Garcia",
   "homepage_url": "https://rickynotaro.com/"
